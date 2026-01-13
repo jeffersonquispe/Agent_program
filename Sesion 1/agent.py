@@ -50,34 +50,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""
-Cómo ejecutar este código en el IDE Cursor en Windows 11:
-
-1. Abre el archivo 'agent.py' en Cursor.
-
-2. Instala las dependencias ejecutando:
-   pip install -r requirements.txt
-
-3. Configura las variables de entorno:
-   
-   Opción A: Crea un archivo .env en la misma carpeta con el siguiente contenido:
-   AWS_ACCESS_KEY_ID=tu_access_key_id
-   AWS_SECRET_ACCESS_KEY=tu_secret_access_key
-   AWS_DEFAULT_REGION=us-east-1
-   
-   Opción B: Configura las variables de entorno del sistema:
-   - En Windows PowerShell:
-     $env:AWS_ACCESS_KEY_ID="tu_access_key_id"
-     $env:AWS_SECRET_ACCESS_KEY="tu_secret_access_key"
-     $env:AWS_DEFAULT_REGION="us-east-1"
-
-4. Una vez configuradas las credenciales, ejecuta el script usando:
-   python agent.py
-
-El agente te pedirá preguntas; escribe tu consulta y presiona Enter.
-Escribe 'salir' para terminar la conversación.
-
-Nota: Para mayor seguridad, usa variables de entorno y no hardcodees las credenciales en el código.
-¡Listo! Así puedes usar el agente desde Cursor en Windows 11 de manera sencilla.
-"""
-

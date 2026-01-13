@@ -1,0 +1,96 @@
+{
+  "prompts": {
+    "zero_shot": {
+      "file": "prompt_zero_shot.txt",
+      "description": "Zero-Shot: Respuesta directa sin ejemplos previos",
+      "technique": "Zero-Shot Learning",
+      "version": "1.0",
+      "use_case": "Problemas nuevos o únicos, respuestas rápidas"
+    },
+    "few_shot": {
+      "file": "prompt_few_shot.txt",
+      "description": "Few-Shot: Respuesta basada en ejemplos previos",
+      "technique": "Few-Shot Learning",
+      "version": "2.0",
+      "use_case": "Problemas comunes con patrones conocidos"
+    },
+    "system": {
+      "file": "prompt_system.txt",
+      "description": "System Prompt: Instrucciones del sistema con roles y reglas",
+      "technique": "System Instructions",
+      "version": "3.0",
+      "use_case": "Contexto empresarial, protocolos establecidos"
+    },
+    "chain_of_thought": {
+      "file": "prompt_chain_of_thought.txt",
+      "description": "Chain of Thought (CoT): Razonamiento paso a paso explícito",
+      "technique": "Chain of Thought",
+      "version": "4.0",
+      "use_case": "Problemas complejos que requieren razonamiento estructurado"
+    },
+    "self_consistency": {
+      "file": "prompt_self_consistency.txt",
+      "description": "Self-Consistency: Múltiples razonamientos para mayor confiabilidad",
+      "technique": "Self-Consistency",
+      "version": "5.0",
+      "use_case": "Problemas críticos, decisiones importantes"
+    },
+    "tree_of_thoughts": {
+      "file": "prompt_tree_of_thoughts.txt",
+      "description": "Tree of Thoughts (ToT): Exploración estructurada de múltiples soluciones",
+      "technique": "Tree of Thoughts",
+      "version": "6.0",
+      "use_case": "Problemas complejos con múltiples caminos de solución"
+    },
+    "react": {
+      "file": "prompt_react.txt",
+      "description": "ReAct: Reasoning + Acting - Alternancia entre pensar y actuar",
+      "technique": "ReAct",
+      "version": "7.0",
+      "use_case": "Diagnóstico interactivo, troubleshooting dinámico"
+    },
+    "prompt_chaining": {
+      "file": "prompt_prompt_chaining.txt",
+      "description": "Prompt Chaining: Divide problemas complejos en sub-tareas secuenciales",
+      "technique": "Prompt Chaining",
+      "version": "8.0",
+      "use_case": "Problemas complejos con múltiples etapas, proyectos grandes"
+    },
+    "self_refine": {
+      "file": "prompt_self_refine.txt",
+      "description": "Self-Refine: Genera solución inicial, luego la revisa y mejora iterativamente",
+      "technique": "Self-Refine",
+      "version": "9.0",
+      "use_case": "Soluciones que requieren perfeccionamiento, calidad alta"
+    },
+    "step_back": {
+      "file": "prompt_step_back.txt",
+      "description": "Step-Back Prompting: Considera conceptos generales antes del problema específico",
+      "technique": "Step-Back Prompting",
+      "version": "10.0",
+      "use_case": "Problemas que requieren comprensión conceptual profunda"
+    },
+    "reflexion": {
+      "file": "prompt_reflexion.txt",
+      "description": "Reflexion: Reflexiona sobre errores y ajusta estrategia para evitar repetirlos",
+      "technique": "Reflexion",
+      "version": "11.0",
+      "use_case": "Problemas donde las soluciones anteriores fallaron, aprendizaje de errores"
+    },
+    "rag_concept": {
+      "file": "prompt_rag_concept.txt",
+      "description": "RAG Concept: Consulta conocimiento estructurado antes de responder",
+      "technique": "Retrieval-Augmented Generation (RAG)",
+      "version": "12.0",
+      "use_case": "Problemas que requieren consultar documentación o casos previos"
+    },
+    "pal": {
+      "file": "prompt_pal.txt",
+      "description": "PAL: Genera código o pseudocódigo para resolver problemas estructuradamente",
+      "technique": "Program-Aided Language Models (PAL)",
+      "version": "13.0",
+      "use_case": "Problemas con lógica estructurada, cálculos, verificaciones sistemáticas"
+    }
+  },
+  "default": "zero_shot"
+}
